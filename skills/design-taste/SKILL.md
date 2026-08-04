@@ -30,6 +30,14 @@ Taste is the gap between compliance and craft. This skill gives agents a shared 
 - When the design-critic needs to evaluate craft quality, not just plan compliance
 - When something "works" but doesn't feel right — and you need to articulate why
 
+## The TEAM Taste Baseline
+
+Before running the gather-inputs conversation below, check `skills/design-taste/team-taste-profile.md` in this repo — a taste profile derived from the Stillwater Team Eye v2 principals (Chesky, Ive, Schultz, Vogels, Karpathy), each backed by deep research into their real-world counterparts' documented design philosophy. It captures a converged, flagship-quality aesthetic doctrine: radical restraint, measured (not eyeballed) craft standards, progressive disclosure, invisible personalization, and a hard rule that monetization surfaces meet the same bar as everything else.
+
+- If the user has no prior taste profile (no `~/.designpowers/taste-profile.md` and no project-specific one), offer this as a starting point rather than building from nothing: "I have a taste baseline from a prior design council — restrained, flagship-quality, dark-mode-literate. Want me to start there, or build yours from scratch?"
+- Its **Non-Negotiables** section (touch target minimums, contrast floors, no dark patterns, accessibility from day one) is a craft floor, not a preference — treat it as binding on any project unless the user explicitly overrides a specific item, and log the override.
+- Its subjective/emotional direction (palette mood, personality, voice) is a *starting point*, not a constraint — a project's own references and the user's stated taste always win on the subjective dimension.
+
 ## Process
 
 ### Step 1: Gather Taste Inputs
